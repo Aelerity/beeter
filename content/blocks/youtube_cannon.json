@@ -1,36 +1,30 @@
 {
-    "type": "itemTurret",
-    "name": "ez",
-    "description": "Shoots overpowered Youtube Plaques at enemies.",
-    "targetAir": true,
-    "targetGround": true,
-    "health": 1000000,
-    "size": 2,
-    "shootType": "BasicBulletType",
-    "inaccuracy": 1,
-    "reload": 0.01,
-    "shootCone": 40,
-    "rotateSpeed": 100,
-    "shots": 1,
-    "range": 2000,
-    "ammo": {
-        "copper": {
-	    "type": "BasicBulletType"
-            "speed": 90,
-            "damage": 10000,
-            "bulletWidth": 5,
-            "bulletHeight": 5,
-            "shootEffect": "nuclearShockwave",
-            "smokeEffect": "shootBigSmoke",
-            "ammoMultiplier": 15,
-        }
-    },
-    "requirements": [
-        { "item": "copper", "amount": 100 },
-    ],
-    "category": "turret"
-    "shootSound": "flak"
-],
-   "research": "ez",
+	"type": "ArtilleryTurret",
+	"name": "Lead Turret",
+	"description": "Stronger the the duo",
+	"health": 4000000,
+	"size": 2,
+	"reload": 0.01,
+	"range": 2000,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 1,
+	"rotatespeed": 2,
+	"targetAir":true,
+	"ammo": {
+		"lead": {
+			"speed": 90,
+			"damage": 10000,
+			"bulletWidth": 5,
+			"bulletHeight": 5,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		},
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 1 },
+		{ "item": "copper", "amount": 1 }
+	],
+           "research": "duo",
 	"category": "turret"
 }
