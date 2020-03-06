@@ -16,7 +16,7 @@
     "ammo": {
         "copper": {
 	    "type": "BasicBulletType"
-            "speed": 200,
+            "speed": 1,
             "damage": 10000,
             "bulletWidth": 5,
             "bulletHeight": 5,
