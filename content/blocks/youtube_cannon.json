@@ -30,4 +30,7 @@
     ],
     "category": "turret"
     "shootSound": "flak"
+],
+   "research": "ez",
+	"category": "turret"
 }
