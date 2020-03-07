@@ -2,17 +2,17 @@
 	"type": "ArtilleryTurret",
 	"name": "Lead Turret",
 	"description": "Stronger the the duo",
-	"health": 4000000,
+	"health": 1000000,
 	"size": 2,
-	"reload": 0.01,
-	"range": 2000,
+	"reload": 1,
+	"range": 750,
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 1,
 	"rotatespeed": 2,
 	"targetAir":true,
 	"ammo": {
-		"lead": {
-			"speed": 90,
+		"copper": {
+			"speed": 15.0,
 			"damage": 10000,
 			"bulletWidth": 5,
 			"bulletHeight": 5,
@@ -22,8 +22,7 @@
 		},
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 1 },
-		{ "item": "copper", "amount": 1 }
+		{ "item": "copper", "amount": 25 }
 	],
            "research": "duo",
 	"category": "turret"
